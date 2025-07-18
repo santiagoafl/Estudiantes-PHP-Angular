@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db   = 'escuela';
 $user = 'postgres';
-$pass = 'santiago'; // cámbialo por la tuya
+$pass = 'santiago'; 
 
 try {
     $conn = new PDO("pgsql:host=$host;dbname=$db", $user, $pass);
